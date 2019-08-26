@@ -20,7 +20,7 @@
 
 ## **Team members**
 
-  **Yilin Zhu, William Shao, Weisheng Zhang**
+  Yilin Zhu, William Shao, Weisheng Zhang
 
 ## **Details on how to both run and use/operate project application**
 
