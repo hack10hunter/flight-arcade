@@ -18,15 +18,9 @@
   
   When the health of a plane comes down to zero, that player loses and the other player wins.
 
-## **Description of each member's specific contribution to the project**
+## **Team members**
 
-- **Yilin Zhu**: reflection, shader particle effects (fire, ocean), transparency, collecting sound files
-
-- **William Shao**: collision, skybox implementation, merging, multiple viewports/camera angles, physics
-
-- **Weisheng Zhang**: aircraft movement control, camera control, obj loader, HUD design, construct README.md 
-
-- **Meiyi Zheng**: try to do the shadow mapping, but failed. 
+  **Yilin Zhu, William Shao, Weisheng Zhang**
 
 ## **Details on how to both run and use/operate project application**
 
@@ -56,13 +50,5 @@
   
   There is built-in help at the starting menu of the game as well.
 
-## **Miscellaneous**
 
-### Advanced Topics
-- Reflection(Cube Mapping)
-- Shader partical effects(fire and ocean)
-- Collision detection
-- Physics
-- Transparency
-- Multiple viewports/camera angles
-- Note that the framerate may be low on some browsers due to computational load of the program. Hardware acceleration may be helpful.
+- **Note that the framerate may be low on some browsers due to computational load of the program. Hardware acceleration may be helpful.**
