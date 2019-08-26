@@ -51,4 +51,4 @@
   There is built-in help at the starting menu of the game as well.
 
 
-- **Note that the framerate may be low on some browsers due to computational load of the program. Hardware acceleration may be helpful.**
+**Note that the framerate may be low on some browsers due to computational load of the program. Hardware acceleration may be helpful.**
