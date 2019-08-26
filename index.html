@@ -1,0 +1,66 @@
+<!DOCTYPE html> <html> <head> <meta charset="UTF-8"/> <link rel="icon" href="assets/fav.ico">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="assets/fav.ico">
+  <script> window.tiny_graphics = {};             // Store all our JavaScipt code inside of classes here.
+    window.classes = {}                    
+  </script>
+  <!--  Javascript "include" files.  Any code in them gets executed as part of the page loading: //-->
+  <link rel="stylesheet" href="style.css">
+  <script src="tiny-graphics.js"></script>
+  <script src="dependencies.js"></script>
+  <script src="ocean_shader.js"></script>
+  <script src="fire_shader.js"></script>
+  <script src="reflection.js"></script>
+  <script src= "collision.js" ></script>
+  <script src= "sound.js" ></script>
+  <script src="main-scene.js"></script>
+</head>
+
+<body style="background: DarkGray">
+  <!-- Begin typing your web page here. //-->
+  <audio loop id="bgm">
+    <source src="sounds/Game-Menu_Looping.mp3" type="audio/mpeg" muted="muted">
+  </audio>
+
+  <audio id="failure">
+    <source src="sounds/failure.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="wonderful">
+    <source src="sounds/wonderful.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="ready">
+    <source src="sounds/ready.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="shoot">
+    <source src="sounds/shoot.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="takeoff">
+    <source src="sounds/takeoff.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- The following code embeds a WebGL canvas panel widget with certain scenes and their controls. //-->
+  <div id="main-canvas" class="canvas-widget"></div>
+  <script> "use strict"     // ********************* THE ENTRY POINT OF YOUR WHOLE PROGRAM STARTS HERE ********************* 
+    // Use this code to embed a widget into any web page.  The widget inclues a 3D WebGL area
+    // (an HTML canvas) and various panels of controls.
+    const scenes = ["Collision_Demo",    // First, list the names of scenes we will add to our canvas.  These will register 
+    ]; // themselves with this widget's Canvas_Manager so that their code can be called upon
+    // every time a draw / keyboard / mouse event happens on the web page.
+    new Canvas_Widget("main-canvas", scenes);             // Use the Canvas_Widget class to display the WebGL demo.  Pass in
+                                                          // the name of the HTML element we are to replace with the widget.
+  </script>
+  <!-- The following code embeds a code navigator widget with links to classes. //-->
+  <div id="main-code" class="code-widget"></div>
+  <script> "use strict"
+    new Code_Widget("main-code", "Project_Scene");
+  </script>
+  <div class="keyboard-control"></div>
+
+</body>
+
+</html>
